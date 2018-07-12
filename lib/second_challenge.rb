@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  temp = second_challenge.values
+  temp = groceries.values
   temp
 
 end
