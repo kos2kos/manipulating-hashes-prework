@@ -14,7 +14,11 @@ def first_challenge
   }
 
   #your code here
-  
+  contacts.each do | person, data|
+    data.each do |key, value|
+      if key == favorite_icecream_flavors
+        favorite_icecream_flavors.each do |index|
+          if index == "s"
 
 
   #remember to return your newly altered contacts hash!
