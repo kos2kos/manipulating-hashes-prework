@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  temp = 
+  temp = []
   second_challenge.each do |food, list|
   
 
