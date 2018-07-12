@@ -17,7 +17,7 @@ def first_challenge
   contacts.each do | person, data|
     data.each do |key, value|
       if key == favorite_icecream_flavors
-        favorite_icecream_flavors.delete_if {do |index|}
+        favorite_icecream_flavors.delete_if {|index| index == ""}
           arr.delete_if { |a| a < 4 }
 
 
